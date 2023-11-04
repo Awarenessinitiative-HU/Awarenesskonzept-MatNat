@@ -1,7 +1,9 @@
 #set page(paper: "a5", margin: 1cm)
 
-= Steckbrief für Mitglieder eines Awareness-Teams 
-#v(.3cm)
+// Title
+#align(center)[#text(size: 16pt, weight: "semibold")[
+  Steckbrief für Mitglieder eines Awareness-Teams 
+]]
 
 Name & Pronomen:
 
