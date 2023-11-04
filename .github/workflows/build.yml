@@ -9,15 +9,22 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Compile Typst documents
-      uses: lvignoli/typst-action@main
-      with:
-        source_file: |
-          $(ls *.typ)
+    - name: Setup Typst
+      run: | 
+        wget https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz
+        tar xf *.tar.xz
+        rm -rf *.tar.xz
+        sudo mv typst*/typst /usr/bin
+        rm -rf typst-*
 
-    - name: Upload PDFs as artifacts
+    - name: Compile Typst documents
+      run: |
+        for file in $(find -name '*.typ'); do
+          typst compile $file;
+        done
+
+    - name: Upload pdfs as artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: PDFs
-        path: |
-          *.pdf
+        name: pdfs
+        path: "**/*.pdf"
