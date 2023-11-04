@@ -1,0 +1,23 @@
+name: Build Typst document
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Compile Typst documents
+      uses: lvignoli/typst-action@main
+      with:
+        source_file: |
+          $(ls *.typ)
+
+    - name: Upload PDFs as artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: PDFs
+        path: |
+          *.pdf
