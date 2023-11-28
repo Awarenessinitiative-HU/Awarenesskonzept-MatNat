@@ -84,23 +84,48 @@ Die Syntax von Typst:
 + Das erste Element
 + Das zweite
 + Das
++
 ```
 
 Wer mehr über Typst erfahren möchte, kann hier weiterlesen: <https://typst.app/home>, <https://typst.app/docs/>
-
 
 ## Arbeitsabläufe
 
 Es gibt zwei Möglichkeiten die Dateien zu bearbeiten. Entweder direkt hier im Browser ohne etwas installieren zu müssen oder lokal auf dem eigenen Computer (damit auch offline möglich).
 
-### Im Browser
+### Im Browser bearbeiten
 
 <https://github.dev/Awarenessinitiative-HU/Awarenesskonzept-MatNat/blob/main/>
 
-### Lokal
+![overview github.dev](.github/assets/overview.png)
+
+![source control tab](.github/assets/source-control.png)
+
+![change and create a branch](.github/assets/branches.png)
+
+![preview markdown](.github/assets/preview-markdown.png)
+
+### Lokal bearbeiten
 
 Um lokal an den Dateien zu arbeiten, werden ein paar Sachen benötigt:
 
 - Git installiert und das Wissen, wie man Git bedient.
 - Ein Text-Editor um die Dateien zu bearbeiten (z.B. Visual Studio Code).
 - Eventuell GitHub Desktop um das Arbeiten mit Git leichter zu machen.
+
+### Allgemein
+
+
+#### Pull request
+
+<https://github.com/Awarenessinitiative-HU/Awarenesskonzept-MatNat/compare/>
+
+
+#### Workflows
+
+Gerenderte Dateien zu jedem commit.
+<https://github.com/Awarenessinitiative-HU/Awarenesskonzept-MatNat/actions/>
+
+#### Veröffentlichungen (Releases)
+
+<https://github.com/Awarenessinitiative-HU/Awarenesskonzept-MatNat/releases>
