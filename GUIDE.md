@@ -1,6 +1,6 @@
 # Guide
 
-Ein Guide um sich in diesem Repository zurechtzufinden. Liest sich am besten von oben nach unten :)
+Ein Guide um sich in diesem Repository zurechtzufinden. Liest sich am Besten von oben nach unten :)
 
 ## Git & GitHub
 
@@ -42,6 +42,8 @@ Zum Beispiel kann eine Markdown Datei so aussehen:
 # Das ist eine Überschrift
 
 Ich liebe [Eis](https://de.wikipedia.org/wiki/Eis)!
+
+Was magst du lieber? **Bold** oder _italic_ Text?
 
 ## Unterüberschrift
 
@@ -89,4 +91,16 @@ Wer mehr über Typst erfahren möchte, kann hier weiterlesen: <https://typst.app
 
 ## Arbeitsabläufe
 
-Folgt in Kürze :)
+Es gibt zwei Möglichkeiten die Dateien zu bearbeiten. Entweder direkt hier im Browser ohne etwas installieren zu müssen oder lokal auf dem eigenen Computer (damit auch offline möglich).
+
+### Im Browser
+
+<https://github.dev/Awarenessinitiative-HU/Awarenesskonzept-MatNat/blob/main/>
+
+### Lokal
+
+Um lokal an den Dateien zu arbeiten, werden ein paar Sachen benötigt:
+
+- Git installiert und das Wissen, wie man Git bedient.
+- Ein Text-Editor um die Dateien zu bearbeiten (z.B. Visual Studio Code).
+- Eventuell GitHub Desktop um das Arbeiten mit Git leichter zu machen.
